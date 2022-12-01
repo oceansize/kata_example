@@ -10,3 +10,12 @@
 #   otherwise
 #       return the original number (as a string)
 
+def fizz_buzz(number)
+  if(number % 3 == 0)
+    return "Fizz"
+  elsif (number == 5)
+    return "Buzz"
+  end
+
+  return number.to_s
+end
